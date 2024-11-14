@@ -1,6 +1,6 @@
 services:
   hadoop:
-    image: zoltannz/hadoop-ubuntu:2.8.1
+    build: .
     container_name: hadoop
     networks:
       - shared-net
