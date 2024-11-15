@@ -24,7 +24,6 @@ RUN export HADOOP_HDFS_HOME=$HADOOP_HOME
 RUN export YARN_HOME=$HADOOP_HOME
 RUN export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
 RUN export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin
-RUN source ~/.bashrc
 
 
 # Comando por defecto para el contenedor
